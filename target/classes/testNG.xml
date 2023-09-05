@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Regression Test"  configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="CreateAccountTest.Listeners"/>
+    </listeners>
+    <test name = "Release Home page test">
+        <classes>
+            <class name = "CreateAccountTest.CreateGoogleAccountTest"/>
+        </classes>
+    </test>
+
+</suite>
